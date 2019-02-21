@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<!-- Featured Post -->
+<article class="post featured">
+  <!--<span class="date">April 25, 2017</span>-->
+  <header class="major">
+
+  {{ content }}
+
+  </header>
+  <!--<ul class="actions special">
+		<li><a href="#" class="button large">Read Full Story</a></li>
+	</ul>-->
+</article>
+
+<section class="posts">
+{% for service_type in site.services %}
+<!-- Posts -->
+  			<article>
+  				<header>
+  					<!--<span class="date">April 24, 2017</span>-->
+  					<h2><a href="{{ site.url }}/services/{{ service_type.page_path }}/">{{ service_type.service_name }}</a></h2>
+  				</header>
+  				<a href="{{ site.url }}/services/{{ service_type.page_path }}/" class="image fit"><img src="{{ service_type.image_path }}" alt="" /></a>
+  				<p>{{ service_type.description }}</p>
+  				<!--<ul class="actions special">
+  					<li><a href="#" class="button">Full Story</a></li>
+  				</ul>-->
+  			</article>
+
+{% endfor %}
+ </section>

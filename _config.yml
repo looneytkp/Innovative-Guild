@@ -1,0 +1,21 @@
+url:             https://looneytkp.github.io/Innovative-Guild
+company:         "Innovative-Guild<br />Software Development Company"
+company_logo:    "Innovative-Guild"
+description:     "We Beautify Your Ideas & Design Your Dreams"
+title_of_home:   Home
+title_of_about:  About Us
+
+collections:
+  services:
+
+#social_icons -- replace username with your username for each platform
+#comment the ones you do not use
+twitter:         looneyTKP
+facebook:        jpersie
+github:          looneytkp
+telegram:        booooooooooooks
+
+#info
+address:         "1234 Somewhere Road #87257 Nashville, TN 00000-0000"
+phone:           "(000) 000-0000"
+email:           email
